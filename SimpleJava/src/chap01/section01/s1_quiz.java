@@ -1,4 +1,4 @@
-package chap01;
+package chap01.section01;
 
 /**
  * @author simple-coding

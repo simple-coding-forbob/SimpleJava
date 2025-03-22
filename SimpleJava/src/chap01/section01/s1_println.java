@@ -4,7 +4,7 @@
  * 표시 단축키      : sysout
  * 실행           : 상단 메뉴 삼각형 아이콘
  */
-package chap01;
+package chap01.section01;
 
 /**
  * @author simple-coding
