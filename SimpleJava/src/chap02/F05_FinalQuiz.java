@@ -4,19 +4,20 @@
  * 표시 단축키      : sysout
  * 실행           : 상단 메뉴 삼각형 아이콘
  */
-package chap01.section03;
+package chap02;
+
+import java.util.Scanner;
 
 /**
  * @author simple-coding
+ *
  */
-public class s2_Casting {
+public class F05_FinalQuiz {
 	public static void main(String[] args) {
-		long a=1;
-		int b=(int)a;
+		Scanner a = new Scanner(System.in);
+		String b = a.next();
+		String c = a.next();
 		System.out.println(b);
-
-		double c=1.5;
-		float d=(float)c;
-		System.out.println(d);
+		System.out.println(c);
 	}
 }

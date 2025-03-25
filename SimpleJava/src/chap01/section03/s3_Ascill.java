@@ -7,7 +7,7 @@
 package chap01.section03;
 
 /**
- * @author TaeGyung
+ * @author simple-coding
  */
 public class s3_Ascill {
 	public static void main(String[] args) {

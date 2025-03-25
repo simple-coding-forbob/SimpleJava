@@ -4,19 +4,17 @@
  * 표시 단축키      : sysout
  * 실행           : 상단 메뉴 삼각형 아이콘
  */
-package chap01.section03;
+package chap02;
 
 /**
  * @author simple-coding
+ *
  */
-public class s2_Casting {
+public class F03_FinalQuiz {
 	public static void main(String[] args) {
-		long a=1;
-		int b=(int)a;
-		System.out.println(b);
-
-		double c=1.5;
-		float d=(float)c;
-		System.out.println(d);
+		int a = 20;
+		int b = 10;
+		System.out.println(a+b);
+		System.out.println(a-b);
 	}
 }

@@ -7,16 +7,18 @@
 package chap01.section03;
 
 /**
- * @author TaeGyung
+ * @author simple-coding
  */
 public class s6_Printf {
 	public static void main(String[] args) {
-		System.out.printf("%d", 10);      // 정수 10 출력
+		System.out.printf("%d", 10);      
 		System.out.println();
 		
-		System.out.printf("%s", "hi"); // 문자열 출력
+		System.out.printf("%s", "hi"); 
 		System.out.println();
 		
-		System.out.printf("%x", 10);     // 16진수 출력 답 : a
+		System.out.printf("%x", 10);   
+		System.out.println();
+		System.out.printf("%.3f", 3.14127);     
 	}
 }

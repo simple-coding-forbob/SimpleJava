@@ -10,7 +10,7 @@ package chap02;
  * @author simple-coding
  *
  */
-public class F1_FinalQuiz {
+public class F01_FinalQuiz {
 	public static void main(String[] args) {
 		String a="굿모닝";
 		System.out.println(a);
