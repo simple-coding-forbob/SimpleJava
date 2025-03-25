@@ -4,17 +4,19 @@
  * 표시 단축키      : sysout
  * 실행           : 상단 메뉴 삼각형 아이콘
  */
-package chap01.section01;
+package chap01.section03;
 
 /**
- * @author simple-coding
- * 예제: Hello World 표시하세요
- * 정수 1 은 바로 아래에 표시하세요
+ * @author TaeGyung
  */
-public class s1_println {
+public class s6_Quiz {
 	public static void main(String[] args) {
+		System.out.printf("%d", 100);      
+		System.out.println();
 		
-		System.out.println("Hello World");
-		System.out.println(1);
+		System.out.printf("%s", "hello"); 
+		System.out.println();
+		
+		System.out.printf("%x", 11);
 	}
 }

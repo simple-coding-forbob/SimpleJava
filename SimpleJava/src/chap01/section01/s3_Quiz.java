@@ -8,15 +8,12 @@ package chap01.section01;
 
 /**
  * @author simple-coding
- * 퀴즈) 정수 a 에 30 이 있습니다. 정수 b에는 20 이 있습니다.
- * 2개를 곱셈/나눗셈/나눈 나머지를 화면에 표시하세요
  */
-public class s4_quiz {
+public class s3_Quiz {
 	public static void main(String[] args) {
 		int a=30;
 		int b=20;
-		System.out.println(a*b);
-		System.out.println(a/b);
-		System.out.println(a%b);
+		System.out.println(a+b);
+		System.out.println(a-b);
 	}
 }

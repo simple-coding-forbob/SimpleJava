@@ -8,11 +8,8 @@ package chap01.section01;
 
 /**
  * @author simple-coding
- * 퀴즈) "안녕하세요" 값을 임시저장(변수)하여 화면에 표시하세요
- * 정수 2 도 임시저장(변수)하여 화면에 표시하세요
- * 단, 임시 저장할 이름은 자유롭게 하세요
  */
-public class s2_quiz {
+public class s2_Quiz {
 	public static void main(String[] args) {
 		String a="안녕하세요";
 		System.out.println(a);

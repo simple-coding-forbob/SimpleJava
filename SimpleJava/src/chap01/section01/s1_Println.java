@@ -8,14 +8,11 @@ package chap01.section01;
 
 /**
  * @author simple-coding
- * 예제) 정수 a 에 3 이 있습니다. 정수 b에는 2 이 있습니다.
- * 2개를 더한값/뺀값을 화면에 표시하세요
  */
-public class s3_calc {
+public class s1_Println {
 	public static void main(String[] args) {
-		int a=3;
-		int b=2;
-		System.out.println(a+b);
-		System.out.println(a-b);
+		
+		System.out.println("Hello World");
+		System.out.println(1);
 	}
 }

@@ -8,15 +8,11 @@ package chap01.section01;
 
 /**
  * @author simple-coding
- * 예제) 정수 a 에 3 이 있습니다. 정수 b에는 2 이 있습니다.
- * 2개를 곱셈/나눗셈/나눈 나머지를 화면에 표시하세요
  */
-public class s4_calc2 {
+public class s5_Calc3 {
 	public static void main(String[] args) {
-		int a=3;
-		int b=2;
-		System.out.println(a*b);
-		System.out.println(a/b);
-		System.out.println(a%b);
+		String a="Hello";
+		String b="World";
+		System.out.println(a+b);
 	}
 }

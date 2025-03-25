@@ -8,19 +8,17 @@ package chap01.section02;
 
 /**
  * @author simple-coding
- * 예제) 정수 10 을 2진수, 8진수, 16진수로 화면에 표시하세요
- * 단, Integer.toBinaryString(),
- *    Integer.toOctalString(),
- *    Integer.toHexString() 기능을 이용하세요
  */
-public class s4_numeral {
+public class s1_Type {
 	public static void main(String[] args) {
-		String a = Integer.toBinaryString(10);
-		String b = Integer.toOctalString(10);
-		String c = Integer.toHexString(10);
+		byte  a = 1;
+		short b = 10;
+		int   c = 100;
+		long  d = 1000;
 		
 		System.out.println(a);
 		System.out.println(b);
 		System.out.println(c);
+		System.out.println(d);
 	}
 }
