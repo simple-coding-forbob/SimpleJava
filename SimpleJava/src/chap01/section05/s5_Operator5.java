@@ -12,10 +12,8 @@ package chap01.section05;
  */
 public class s5_Operator5 {
 	public static void main(String[] args) {
-		boolean a = true;
-		boolean b = false;
-		System.out.println(a||b);
-		System.out.println(a&&b);
-		System.out.println(!a);
+		int a = 1;
+		a += 2;
+		System.out.println(a);
 	}
 }
