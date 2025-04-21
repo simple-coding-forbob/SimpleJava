@@ -4,7 +4,7 @@
 package chap05.section01;
 
 /**
- * @author kangtaegyung
+ * @author simple-coding
  *  
  */
 public class S4_Quiz {
