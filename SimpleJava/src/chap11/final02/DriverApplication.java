@@ -7,8 +7,5 @@ public class DriverApplication {
 
         flyable = new Sparrow();
         flyable.fly();
-
-        Swimable swimable = new Whale();
-        swimable.swim();
     }
 }
