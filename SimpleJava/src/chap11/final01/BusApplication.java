@@ -6,6 +6,5 @@ public class BusApplication {
         Vehicle vehicle = new Bus();
 
         vehicle.run(); // 버스가 달립니다.
-        Bus bus = (Bus)vehicle;
     }
 }
