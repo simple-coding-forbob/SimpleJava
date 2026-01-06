@@ -8,7 +8,7 @@ import java.util.List;
 public class ArraysApplication {
     public static void main(String[] args) {
 //        TODO:
-        int[] arr    = {0,1,2};             // 배열(1개짜리: 1차원배열)
+        int[] arr    = {0,1,2};           // 배열(1개짜리: 1차원배열)
         int[][] arr2 = {{10,11},{20,21}}; //배열(2개짜리: 2차원배열)
 
 //      TODO: 1) 1차원 배열값 출력
@@ -32,7 +32,7 @@ public class ArraysApplication {
 //          사용법 :
 //            (1) 내림차순 : Arrays.sort(배열, Collections.reverseOrder())
 //            => char -> Character
-        Character[] chArr = {'A', 'C', 'B'};
+        String[] chArr = {"A", "C", "B"};
         Arrays.sort(chArr, Collections.reverseOrder());
         System.out.println(Arrays.toString(chArr)); // [C, B, A]
 //        TODO: 

@@ -11,7 +11,7 @@ package chap01.section01;
  */
 public class s1_Println {
 	public static void main(String[] args) {
-		
+//		sout
 		System.out.println("Hello World");
 		System.out.println(1);
 	}

@@ -7,7 +7,7 @@ public class WriteApplication {
     public static void main(String[] args) throws Exception {
 //      1) 파일 쓰기용으로 열기 : 그래이들(빌드) 프로젝트 기본 경로 : ./src
         OutputStream outputStream
-                = new FileOutputStream("src/chap16/output/test1.db");
+                = new FileOutputStream("chap16/output/test1.db");
 
         byte a = 10; // 1byte
         byte b = 20;

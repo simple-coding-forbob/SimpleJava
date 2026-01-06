@@ -6,6 +6,7 @@ package chap06.section03.example01;
  */
 public class Calculator {
 
+
     void powerOn() {
         System.out.println("전원 켜기");
     }

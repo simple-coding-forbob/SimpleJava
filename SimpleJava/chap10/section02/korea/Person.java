@@ -5,7 +5,7 @@ public class Person {
     int name;                 // default 속성(필드)
     protected String address; // protected 속성(필드)
 
-    public void print() {     // public 함수(메소드)
+    void print() {     // public 함수(메소드)
         System.out.println("안녕");
     }
 }

@@ -5,7 +5,6 @@ public class SuperAirplane extends AirPlane {
     public int flyMode;
     
     public SuperAirplane(int flyMode) {
-		super();
 		this.flyMode = flyMode;
 	}
 

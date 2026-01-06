@@ -17,6 +17,7 @@ public class F07_FinalQuiz {
 		Scanner a = new Scanner(System.in);
 		int b = a.nextInt();
 		int c = a.nextInt();
-		System.out.println((double)b / c);
+		double d= b / c;
+		System.out.println(d);
 	}
 }

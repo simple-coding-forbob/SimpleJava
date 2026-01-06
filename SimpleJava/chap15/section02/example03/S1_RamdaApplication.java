@@ -15,7 +15,9 @@ public class S1_RamdaApplication {
 		};
 		m.score();
 		
-		MyMath m2 = () -> System.out.println(60);
+		MyMath m2 = () -> {
+			System.out.println(60);
+		};
 		m2.score();
 	}
 }

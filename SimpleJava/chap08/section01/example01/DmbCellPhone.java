@@ -4,8 +4,8 @@ public class DmbCellPhone extends CellPhone {
 
     int channel;
 
-    public DmbCellPhone(String model, int channel) {
-        this.model = model;
+    public DmbCellPhone(String  model, int channel) {
+        this.model=model;
         this.channel = channel;
     }
 

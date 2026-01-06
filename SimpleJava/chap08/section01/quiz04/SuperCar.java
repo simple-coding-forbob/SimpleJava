@@ -5,7 +5,6 @@ public class SuperCar extends Car {
     public int mode;
     
     public SuperCar(int mode) {
-		super();
 		this.mode = mode;
 	}
 

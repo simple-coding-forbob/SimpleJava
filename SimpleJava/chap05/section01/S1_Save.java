@@ -16,6 +16,6 @@ public class S1_Save {
             System.out.println("같음");
         } else {
             System.out.println("다름");
-        }	
+        }
 	}
 }

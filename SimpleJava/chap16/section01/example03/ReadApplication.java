@@ -6,7 +6,7 @@ import java.io.InputStream;
 public class ReadApplication {
     public static void main(String[] args) throws Exception {
         InputStream inputStream
-                = new FileInputStream("src/chap16/output/test1.db");
+                = new FileInputStream("chap16/output/test1.db");
 
 //      파일읽기 : 1) 반복문 : 1byte 읽고 읽을 위치를 자동으로 이동시킴 
 //               2) 읽을 것이 없으면(-1) 중단

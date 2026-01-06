@@ -2,6 +2,8 @@ package chap12.section02.example01;
 
 public class TryCatchFinallyApplication {
     public static void main(String[] args) {
+
+
         try {
             String data = null;                  // 아무것도 없는 값
             System.out.println(data.toString()); // 예외 발생

@@ -14,6 +14,8 @@ public class S5_Switch {
 	public static void main(String[] args) {
 		int a = 9;
 
+
+
 		switch(a) {
 		case 9:
 			System.out.println("출발");

@@ -10,11 +10,10 @@ package chap01.section01;
  * @author simple-coding
  */
 public class s2_Variable {
-	public static void main(String[] args) {
-		String a="Hello World";
-		System.out.println(a);
-		
-		int b=1;
-		System.out.println(b);
-	}
+    public static void main(String[] args) {
+        String a = "Hello World";
+        System.out.println(a);
+        int b = 1;
+        System.out.println(b);
+    }
 }

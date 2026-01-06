@@ -8,21 +8,16 @@ public class Member {
 	public Member(String name) {
         this.name = name;
     }
-	
+
 	@Override
-	public boolean equals(Object obj) {
-		if (this == obj)
-			return true;
-		if (obj == null)
-			return false;
-		if (getClass() != obj.getClass())
-			return false;
-		Member other = (Member) obj;
-		if (name == null) {
-			if (other.name != null)
-				return false;
-		} else if (!name.equals(other.name))
-			return false;
-		return true;
+	public boolean equals(Object o) {
+		if (o == null || getClass() != o.getClass()) return false;
+		Member member = (Member) o;
+		return Objects.equals(name, member.name);
+	}
+
+	@Override
+	public int hashCode() {
+		return Objects.hashCode(name);
 	}
 }

@@ -15,6 +15,7 @@ public class s6_Operator6 {
 		String a = "Hello";
 		String b = "Hello";
 		String c = new String("Hello");
+		System.out.println(a==c);
 		System.out.println(a.equals(b));
 		System.out.println(a.equals(c));
 	}

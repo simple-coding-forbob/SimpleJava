@@ -16,6 +16,6 @@ public class StreamApplication {
                 .limit(1)
                 .collect(Collectors.toList());
 
-        list2.forEach(s-> System.out.println(s)); // 5개만 출력하기
+        list2.forEach(s-> System.out.println(s)); // 1개만 출력하기
     }
 }

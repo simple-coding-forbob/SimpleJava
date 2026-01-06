@@ -16,6 +16,8 @@ public class s6_Printf {
 		
 		System.out.printf("%s", "hi"); 
 		System.out.println();
+
+
 		
 		System.out.printf("%x", 10);   
 		System.out.println();

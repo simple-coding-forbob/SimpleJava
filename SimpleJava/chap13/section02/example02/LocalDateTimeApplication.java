@@ -8,7 +8,7 @@ public class LocalDateTimeApplication {
         LocalDateTime localDateTime = LocalDateTime.now(); // 현재 날짜+시간
         System.out.println(localDateTime);
 
-//      TODO: 날짜 포맷 변경 방법 소개
+//      TODO: 날짜 포맷 변경 방법 소개+
 //        자바 언어 : 대소문자 구분
 //        yyyy : 년(year)   (4자리수)
 //        MM   : 월(month)  (2자리수)

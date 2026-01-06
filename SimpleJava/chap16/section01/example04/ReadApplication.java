@@ -6,7 +6,7 @@ import java.io.InputStream;
 public class ReadApplication {
     public static void main(String[] args) throws Exception {
         InputStream inputStream
-                = new FileInputStream("src/chap16/output/test2.db");
+                = new FileInputStream("chap16/output/test2.db");
 
         byte[] space = new byte[100];
 

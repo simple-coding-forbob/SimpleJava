@@ -7,10 +7,8 @@ public class S3_Outer {
             public Local() {
                 System.out.println("Local 클래스 생성 ");
             }
-            void func(){}
         }
         Local local = new Local();
-        local.func();
     }
 }
 
