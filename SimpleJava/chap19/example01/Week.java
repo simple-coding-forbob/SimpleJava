@@ -12,10 +12,12 @@ public enum Week {
 	
 	private final String value;
 
-	private Week(String value) {
+//	매개변수 1개 생성자
+	Week(String value) {
 		this.value = value;
 	}
 
+//	getter
 	public String getValue() {
 		return value;
 	}
